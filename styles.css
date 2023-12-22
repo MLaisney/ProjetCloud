@@ -1,51 +1,63 @@
-body {
-    background-color: #36393f;
-    color: #ffffff;
-    font-family: 'Helvetica', sans-serif;
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    /* width: 80%;  */
+    margin-top: 20px; 
 }
 
-.center-container {
-    margin-top: 100px;
-    background-color: #2f3136;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
-h1 {
-    color: #ffffff;
+th {
+    background-color: #f2f2f2;
 }
 
-.bouton-nav {
-    background-color: #7289da;
-    color: #ffffff;
+.valider {
+    background-color: green;
+    color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
+    margin-top: 10px;
+    border-radius: 50px;
+    
     text-decoration: none;
-    margin-right: 20px;
 }
 
-.bouton-nav:hover {
-    background-color: #677bc4;
+.valider:hover {
+    background-color: darkgreen;
 }
-
-.back, .back-a {
-    color: #ffffff;
+.retour {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    padding: 10px 20px;
     border: none;
-    background: #4f545c;
-    border-radius: 4px;
-    padding: 5px 15px;
-    text-decoration: none;
     cursor: pointer;
+    margin-top: 10px;
+    margin-right: 550px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    text-decoration: none;
 }
 
-.back:hover, .back-a:hover {
-    background: #747f8d;
+.retour:hover {
+    background-color: rgb(100, 0, 0);
 }
 
-img{
-    height: 100px;
-    width: 100px;
+.boite_centre {
+    text-align: center;
+    margin-top: 20px; 
 }
+
+.sepa_bouton_index{
+    align-content: end;
+    margin-top: 50px;
+}
+
